@@ -1,0 +1,11 @@
+<ejs-chart id="chart-container" [primaryXAxis]= 'primaryXAxis'
+[title]= "title">
+<e-series-collection>
+<e-series [dataSource]= 'chartData' type = 'Column'
+xName = 'month' yName = 'sales' name = 'Cultura' ></e-series>
+<e-series [dataSource]= 'chartData1' type = 'Line'
+xName = 'month' yName = 'sales' name = 'Educación' ></e-series>
+<e-series [dataSource]= 'chartData1' type = 'Column'
+xName = 'month' yName = 'sales' name = 'Educación' ></e-series>
+</e-series-collection>
+</ejs-chart>

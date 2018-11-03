@@ -1,0 +1,14 @@
+<div id="action-description">
+  <p>Grid con las minimas caracteristicas.</p>
+</div>
+<div class="control-section">
+  <ejs-grid [dataSource]='data' height='150' width='500' >
+      <!-- <ejs-grid [dataSource]='data' height='150' width='200' allowFiltering='true' [filterSettings]='filterSetting'> -->
+
+    <e-columns>
+      <e-column field='ProgramaID' headerText='Programa ID' width='30' textAlign='Left'></e-column>
+      <e-column field='NombrePrograma' headerText='Nombre programa' width='50'  textAlign='Left'></e-column>
+      <e-column field='OrganicoID' headerText='Organico ID' width='30' textAlign='Center'></e-column>
+    </e-columns>
+  </ejs-grid>
+</div>

@@ -1,5 +1,5 @@
 {
-  "name": "ocmdasboard-syncfusion",
+  "name": "sample1",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,9 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "@syncfusion/ej2-ng-buttons": "^16.2.50",
+    "@syncfusion/ej2-ng-charts": "^16.2.50",
+    "@syncfusion/ej2-ng-grids": "^16.2.52",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
