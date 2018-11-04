@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ViewEncapsulation, Inject } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sample1';
+  title = 'OCM';
+
 }

@@ -10,13 +10,15 @@ import { GridAllModule } from '@syncfusion/ej2-ng-grids';
 import { ChartComponent } from './chart/chart.component';
 import { PieComponent } from './pie/pie.component';
 import { GridComponent } from './grid/grid.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
     PieComponent,
-    GridComponent
+    GridComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
