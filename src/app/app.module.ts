@@ -11,6 +11,7 @@ import { ChartComponent } from './chart/chart.component';
 import { PieComponent } from './pie/pie.component';
 import { GridComponent } from './grid/grid.component';
 import { CardComponent } from './card/card.component';
+import { GridHierarchyComponent } from './grid-hierarchy/grid-hierarchy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardComponent } from './card/card.component';
     ChartComponent,
     PieComponent,
     GridComponent,
-    CardComponent
+    CardComponent,
+    GridHierarchyComponent
   ],
   imports: [
     BrowserModule,
